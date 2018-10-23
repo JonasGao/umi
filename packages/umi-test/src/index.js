@@ -36,7 +36,7 @@ export default function(opts = {}) {
     },
     globals: {
       'ts-jest': {
-        babelConfig: true,
+        useBabelrc: true,
       },
     },
     ...(userJestConfig || {}),
